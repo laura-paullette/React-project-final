@@ -1,0 +1,50 @@
+.dog-details-container{
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+
+   
+
+}
+
+.dog-details-wrapper{
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    border: 1px solid grey;
+    width: 700px;
+}
+
+.dog-image-detail{
+    width: 350px;
+    flex: 1;
+
+}
+
+.dog-image-detail img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+
+.applicants-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.applicants-list{
+    padding: 20px;
+
+}
+
+.applicants-form{
+
+}
+

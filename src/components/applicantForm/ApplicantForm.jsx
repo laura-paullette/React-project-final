@@ -60,6 +60,7 @@ function ApplicantForm ({id}) {
         setPetsOwned("")
         setImage("")
         event.target.reset()
+        window.location.reload()
     }
   return (
     <form className="application-form" onSubmit={handleSubmit}>

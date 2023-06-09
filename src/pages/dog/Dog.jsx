@@ -14,7 +14,7 @@ function Dog() {
     fetch(`http://localhost:9292/dogs/${params.id}}`)
     .then(res => res.json())
     .then(data => setDog(data))
-      
+
     }
   , [])
   

@@ -7,7 +7,6 @@ function ApplicantForm ({id}) {
     const [city, setCity] = useState("")
     const [petsOwned, setPetsOwned] = useState("")
     const [image, setImage] = useState("")
-    console.log(id);
 
     function handleNameChange(event) {
         setName(event.target.value)
@@ -53,14 +52,14 @@ function ApplicantForm ({id}) {
             })
         })
         .then(res => res.json())
-        .then(data)
+        .then(data => console.log(data))
         setName("")
         setCity("")
-        setDogId("")
+        // setDogId("")
         setJob("")
         setPetsOwned("")
         setImage("")
-        
+        event.target.reset()
     }
   return (
     <form className="application-form" onSubmit={handleSubmit}>

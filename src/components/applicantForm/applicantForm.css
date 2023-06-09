@@ -12,9 +12,10 @@
 
 .create{
     border: none;
-    background-color: pink;
+    background-color: palevioletred;
     color: white;
     cursor: pointer;
+    width: 100px;
 }
 
 

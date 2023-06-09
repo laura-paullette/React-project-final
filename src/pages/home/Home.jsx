@@ -11,14 +11,18 @@ useEffect(() => {
   fetch("http://localhost:9292/dogs")
   .then(res => res.json())
   .then(data => setDogs(data))  
-}, [])
+}, [dogs])
+
 
   return (
     <div className='home'>
-        <div className="search-bar">
+      <div>
+        <h1>PAW PATROL🐾</h1>
+      </div>
+        {/* <div className="search-bar">
             <input type="text" className="search-input" placeholder='input value'></input>
             <button className="search-button" >SEARCH</button>
-        </div>
+        </div> */}
 
         <AddDogForm/>
 
@@ -27,9 +31,14 @@ useEffect(() => {
           <div className="dog-box" key={dog.id}>
             <img src={dog.image} alt="dog" className="dog-img" />
             <button className="button" onClick={() => navigate(`/dogs/${dog.id}`)}>VIEW</button>
-            {/* <button className='delete' onClick={
-              handleDelete
-            }/> */}
+            <button className='delete' onClick={() => {
+                      fetch(`http://localhost:9292/dogs/${dog.id}`, {
+                        method: 'DELETE',
+                    })
+                    .then(res => res.json())
+                    .then(data => console.log(data))
+                      
+            }}>DELETE</button>
           </div>
           ))
           }

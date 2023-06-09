@@ -24,7 +24,7 @@ function Dog() {
     <div className="dog-details-container">
       <div className="dog-details-wrapper">
         <div className="dog-image-detail">
-            <img src="https://images.unsplash.com/photo-1600525334864-9e6c8ed189d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80" alt="" />
+            <img src={dog.image} alt="" />
         </div>
         <div className="details">
             <h3>Name: {dog.name}</h3>

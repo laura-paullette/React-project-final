@@ -23,6 +23,7 @@ const AddDogForm = () => {
             image: image
         })
      })
+     event.target.reset()
     //  .then(res => res.json())
     //  .then(data => console.log(data))      
     }

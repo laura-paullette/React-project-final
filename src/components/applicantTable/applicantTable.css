@@ -1,0 +1,16 @@
+table{
+    margin: 0 auto;
+
+}
+
+table,th,td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.participant-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}

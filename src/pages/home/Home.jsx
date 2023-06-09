@@ -27,6 +27,9 @@ useEffect(() => {
           <div className="dog-box" key={dog.id}>
             <img src={dog.image} alt="dog" className="dog-img" />
             <button className="button" onClick={() => navigate(`/dogs/${dog.id}`)}>VIEW</button>
+            {/* <button className='delete' onClick={
+              handleDelete
+            }/> */}
           </div>
           ))
           }

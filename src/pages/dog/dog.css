@@ -36,7 +36,7 @@
 
 .applicants-wrapper{
     display: flex;
-    justify-content: space-between;
+    gap: 150px;
 }
 
 .applicants-list{
@@ -44,7 +44,10 @@
 
 }
 
-.applicants-form{
 
+.applicants-form{
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 

@@ -2,13 +2,13 @@
 
 project description
 This mini web app is a dog adoption app that allows the user to see a list of the dogs available on the home page and it also has a form that the user can fill in order to add a new dog instance to the database.
-upon clicking on the view button on a dog, the user will be able to view the list of dogs available and see a list of applicants who have applied to adopt the dog, they can then fill in he application form and that will add them on the list of applicants.
+upon clicking on the view button on a dog, the user will be able to view an instance of a dog and its details, and see a list of applicants who have applied to adopt the dog, they can then fill in the application form and that will add them on the list of applicants.
 
 Usage
 User can view this mini website or project using the following link:https://react-project-final-gules.vercel.app/
 
 Sources
-This website gets its data from the following API:http://localhost:9292/dogs, and it can be viwd on the following link github:
+This website gets its data from the following API:http://localhost:9292/dogs, and it can be viewed on the following github repo link:https://github.com/laura-paullette/phase-3-sinatra-react-project.git
 
 formating and style
 This README file is written using Markdown. Headers are denoted with a # symbol, and lists are denoted with a - symbol. Emphasis can be added with * or _ symbols, and code can be highlighted with backticks.
